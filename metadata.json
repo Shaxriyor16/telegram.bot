@@ -1,0 +1,6 @@
+{
+  "name": "KinoKod Bot",
+  "description": "Telegram kino bot boshqaruv paneli, jonli sinov chati va kino kodini yuborish tizimi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

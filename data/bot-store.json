@@ -1,0 +1,122 @@
+{
+  "movies": [
+    {
+      "id": "mov-101",
+      "code": "101",
+      "title": "Samarqand ufqi",
+      "year": 2025,
+      "genre": "Tarixiy drama",
+      "duration": "138 daq",
+      "quality": "1080p Full HD",
+      "language": "O'zbek tilida",
+      "rating": "8.4",
+      "description": "Ipak yo'li chorrahasida yo'qolgan qadimiy qo'lyozmani izlayotgan yosh sayyoh va me'morning sinovlarga boy safari.",
+      "posterUrl": "/src/assets/images/poster_samarkand_horizon_1795180533355.jpg",
+      "watchUrl": "https://t.me/kinokod_rasmiy/101",
+      "requestsCount": 412,
+      "codeSentCount": 94,
+      "createdAt": "2026-10-12T09:00:00.000Z"
+    },
+    {
+      "id": "mov-102",
+      "code": "102",
+      "title": "Orbita chegarasi",
+      "year": 2024,
+      "genre": "Fantastika",
+      "duration": "154 daq",
+      "quality": "4K UHD",
+      "language": "O'zbekcha dublyaj",
+      "rating": "8.7",
+      "description": "Halqali sayyora orbitasida aloqasi uzilgan ilmiy kemani qutqarishga jo'nagan ekipaj kutilmagan vaqt anomaliyasiga duch keladi.",
+      "posterUrl": "/src/assets/images/poster_orbital_drift_1795180517003.jpg",
+      "watchUrl": "https://t.me/kinokod_rasmiy/102",
+      "requestsCount": 685,
+      "codeSentCount": 149,
+      "createdAt": "2026-10-15T14:20:00.000Z"
+    },
+    {
+      "id": "mov-103",
+      "code": "103",
+      "title": "Tungi ta'qib",
+      "year": 2025,
+      "genre": "Jangari triller",
+      "duration": "119 daq",
+      "quality": "1080p Full HD",
+      "language": "O'zbekcha dublyaj",
+      "rating": "7.9",
+      "description": "Yomg'irli tun ichida muhim dalillarni shaharning narigi chetiga yetkazishi shart bo'lgan sobiq poygachining bir kechalik kurashi.",
+      "posterUrl": "/src/assets/images/poster_midnight_chase_1795180591509.jpg",
+      "watchUrl": "https://t.me/kinokod_rasmiy/103",
+      "requestsCount": 529,
+      "codeSentCount": 112,
+      "createdAt": "2026-10-21T18:45:00.000Z"
+    },
+    {
+      "id": "mov-104",
+      "code": "104",
+      "title": "Qorli qal'a",
+      "year": 2023,
+      "genre": "Sarguzasht",
+      "duration": "142 daq",
+      "quality": "1080p Full HD",
+      "language": "O'zbek tilida",
+      "rating": "8.2",
+      "description": "Qish bo'roni ostida qolgan tog' qal'asi himoyachilari va qadimiy dovon orqali yordam olib kelayotgan karvon haqidagi doston.",
+      "posterUrl": "/src/assets/images/poster_winter_citadel_1795180515757.jpg",
+      "watchUrl": "https://t.me/kinokod_rasmiy/104",
+      "requestsCount": 348,
+      "codeSentCount": 76,
+      "createdAt": "2026-11-01T11:30:00.000Z"
+    },
+    {
+      "id": "mov-105",
+      "code": "105",
+      "title": "Bulutlar bog'i",
+      "year": 2024,
+      "genre": "Multfilm",
+      "duration": "104 daq",
+      "quality": "1080p Full HD",
+      "language": "O'zbekcha dublyaj",
+      "rating": "8.5",
+      "description": "Bulutlar ustidagi shisha bog'da yashovchi kichkina ixtirochi qiz va uning do'stlari so'lib borayotgan quyosh gullarini saqlab qolishga otlanadi.",
+      "posterUrl": "/src/assets/images/poster_clockwork_garden_1795180539049.jpg",
+      "watchUrl": "https://t.me/kinokod_rasmiy/105",
+      "requestsCount": 491,
+      "codeSentCount": 121,
+      "createdAt": "2026-11-08T16:10:00.000Z"
+    }
+  ],
+  "settings": {
+    "botName": "KinoKod Bot",
+    "botUsername": "@KinoKod_UzBot",
+    "channelUsername": "@kinokod_rasmiy",
+    "codePrefix": "",
+    "welcomeMessage": "Assalomu alaykum! KinoKod Botga xush kelibsiz.\n\nKino ko'rish uchun uning kodini yuboring (masalan: 101) yoki kino nomini yozing — bot sizga kerakli kino kodini darhol yuboradi.",
+    "requireSubscription": true,
+    "autoSendCodeOnSearch": true
+  },
+  "sentLogs": [
+    {
+      "id": "log-1",
+      "movieId": "mov-102",
+      "movieCode": "102",
+      "movieTitle": "Orbita chegarasi",
+      "template": "channel_post",
+      "target": "@kinokod_rasmiy",
+      "deliveryMode": "simulator",
+      "messageText": "🎬 Orbita chegarasi (2024)\nJanr: Fantastika · 154 daq · 4K UHD\n\n🔢 Kino kodi: 102\n🤖 Bot: @KinoKod_UzBot",
+      "sentAt": "2026-11-20T04:40:00.000Z"
+    },
+    {
+      "id": "log-2",
+      "movieId": "mov-101",
+      "movieCode": "101",
+      "movieTitle": "Samarqand ufqi",
+      "template": "short_code",
+      "target": "Jonli sinov chati",
+      "deliveryMode": "simulator",
+      "messageText": "🔢 Kino kodi: 101\n🎬 Samarqand ufqi (2025)\nKodni @KinoKod_UzBot ga yuborib kinoni tomosha qiling.",
+      "sentAt": "2026-11-20T04:55:00.000Z"
+    }
+  ]
+}
